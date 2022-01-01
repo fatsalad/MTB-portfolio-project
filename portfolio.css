@@ -64,18 +64,12 @@ h2 {
   }
 }
 
-@media (max-width: 767px) {
-  .home-pic {
-    margin: 20px;
-  }
-}
-
 @media (max-width: 1400px) {
   .home-pic {
     height: 300px;
     margin: 5 auto;
   }
   h2 {
-    padding: 100px;
+    padding: 120px;
   }
 }
