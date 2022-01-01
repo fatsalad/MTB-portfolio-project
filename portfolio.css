@@ -1,8 +1,8 @@
 .hero {
-  background-image: url("images/dark-bass.jpg");
-  background-color: #48395e;
+  background-image: url("images/dark-bass.PNG");
+  background-color: #cccccc;
   background-position: center;
-  height: 600px;
+  height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 50px;
@@ -12,5 +12,24 @@
   margin-top: 50px;
 }
 .headlines {
-  padding: 40px;
+  padding: 50px;
+}
+
+img {
+  height: 400px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+h2 {
+  padding: 150px;
+  font-family: "Barlow", sans-serif;
+}
+
+.quote {
+  text-align: center;
+  margin: 50px;
+ font-style: italic;
+ font-size: 30px;
+ opacity: 50%;
 }
