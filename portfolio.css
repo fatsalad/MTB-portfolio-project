@@ -60,7 +60,16 @@ h2 {
     margin: 20px;
   }
   .home-pic {
-    margin-left: 100px;
+    margin-left: 50px;
+    display: block;
+  }
+
+  .headlines h1 {
+    font-size: 48px;
+  }
+
+  .headlines a {
+    padding: 20px;
   }
 }
 
