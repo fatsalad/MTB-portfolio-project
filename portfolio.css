@@ -76,3 +76,9 @@ h2 {
     padding: 120px;
   }
 }
+
+@media (min-width: 320px) {
+  .home-pic {
+    margin-left: 100px;
+  }
+}
