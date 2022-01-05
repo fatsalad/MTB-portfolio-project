@@ -67,17 +67,7 @@ h2 {
   }
 }
 
-@media (max-width: 1400px) {
-  .home-pic {
-    height: 300px;
-    margin: 5 auto;
-  }
-  h2 {
-    padding: 120px;
-  }
-}
-
-@media (min-width: 320px) {
+@media (max-width: 420px) {
   .home-pic {
     margin-left: 100px;
   }
