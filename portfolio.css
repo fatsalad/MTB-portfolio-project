@@ -3,6 +3,9 @@
   --default-background-color: #030201;
 }
 @media (max-width: 992px) {
+  h2 {
+    display: none;
+  }
   .headlines {
     text-align: center;
     padding-top: 600px;
@@ -12,9 +15,13 @@
     padding: 30px;
   }
 
-  h2 {
-    display: none;
+  .about-blurb {
+    text-align: center;
+    
   }
+}
+html {
+  min-height: 100%;
 }
 
 .hero {
@@ -64,11 +71,17 @@ h2 {
   font-size: 28px;
   margin-left: 20px;
 }
+.social-media {
+  text-align: center;
+}
+.social-media-links {
+  color: #030201;
+}
 
-.about-page-background {
+.about-page-body {
   background-image: url("images/mtb-dark-guitar.png");
   background-color: var(--default-background-color);
-  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -84,5 +97,5 @@ h2 {
   line-height: 38px;
 }
 .about-blurb {
-  padding: 100px;
+  padding-top: 100px;
 }
