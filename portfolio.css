@@ -135,6 +135,7 @@ html {
   width: 100%;
   padding-bottom: 56.25%;
   height: 0;
+  margin-bottom: 30px;
 }
 .video-container iframe {
   position: absolute;
