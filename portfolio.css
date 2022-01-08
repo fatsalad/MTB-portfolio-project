@@ -4,7 +4,7 @@
   --default-font-color: rgb(209, 212, 212);
 }
 @media (max-width: 992px) {
-  h2 {
+  .picture-descriptions {
     display: none;
   }
   .headlines {
@@ -58,12 +58,12 @@ html {
   opacity: 50%;
 }
 
-h2 {
+.picture-descriptions {
   font-family: var(--main-font-family);
   text-align: center;
   padding: 150px;
 }
-iframe {
+.soundcloud-embed {
   max-width: 800px;
   align-content: center;
   margin: 0 auto;
@@ -125,4 +125,17 @@ iframe {
 .work-page-title-two {
   font-size: 40px;
   color: var(--default-font-color);
+  font-family: var(--main-font-family);
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.videos {
+  height: 100%;
+  width: 100%;
+}
+.video-descriptions {
+  padding: 75px;
+  color: var(--default-font-color);
+  font-family: var(--main-font-family);
 }
