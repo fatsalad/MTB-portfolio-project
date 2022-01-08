@@ -43,17 +43,15 @@ h2 {
 }
 
 @media (max-width: 992px) {
-
-  .headlines{
+  .headlines {
     text-align: center;
     padding-top: 200px;
   }
 
-  .headlines a{
-
+  .headlines a {
     padding: 20px;
   }
- 
+
   h2 {
     display: none;
   }
