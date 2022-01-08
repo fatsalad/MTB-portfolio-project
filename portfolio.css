@@ -5,11 +5,11 @@
 @media (max-width: 992px) {
   .headlines {
     text-align: center;
-    padding-top: 200px;
+    padding-top: 600px;
   }
 
   .headlines a {
-    padding: 20px;
+    padding: 30px;
   }
 
   h2 {
@@ -63,4 +63,26 @@ h2 {
 .nav-link {
   font-size: 28px;
   margin-left: 20px;
+}
+
+.about-page-background {
+  background-image: url("images/mtb-dark-guitar.png");
+  background-color: var(--default-background-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about,
+.about-title {
+  font-family: var(--main-font-family);
+  color: rgb(209, 212, 212);
+  margin-top: 20px;
+}
+
+.about {
+  max-width: 600px;
+  line-height: 38px;
+}
+.about-blurb {
+  padding: 100px;
 }
