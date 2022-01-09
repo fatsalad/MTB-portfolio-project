@@ -89,6 +89,8 @@ html {
 }
 .social-media-links {
   color: var(--default-background-color);
+  font-size: 40px;
+  padding: 20px;
 }
 
 .about-page-body {
@@ -175,6 +177,6 @@ html {
   text-decoration: none;
   color: blueviolet;
 }
-.donate{
+.donate {
   margin-top: 20px;
 }
