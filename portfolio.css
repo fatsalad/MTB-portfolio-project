@@ -145,7 +145,6 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  
 }
 .video-descriptions {
   color: var(--default-font-color);
@@ -154,3 +153,9 @@ html {
   margin-bottom: 30px;
 }
 
+.contact-page-body {
+  background-image: url("images/black-white-pic-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:85rem;
+}
