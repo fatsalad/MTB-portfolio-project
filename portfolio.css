@@ -7,9 +7,9 @@
   .picture-descriptions {
     display: none;
   }
+
   .headlines {
     text-align: center;
-    padding-top: 600px;
   }
 
   .headlines a {
@@ -20,7 +20,13 @@
     text-align: center;
     margin-top: 40px;
   }
+  .contact-container {
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+  }
 }
+
 html {
   min-height: 100%;
 }
@@ -157,5 +163,18 @@ html {
   background-image: url("images/black-white-pic-2.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size:85rem;
+  background-size: 85rem;
+}
+
+.contact-container {
+  font-family: var(--main-font-family);
+  padding: 20px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: blueviolet;
+}
+.donate{
+  margin-top: 20px;
 }
