@@ -7,6 +7,9 @@
   .picture-descriptions {
     display: none;
   }
+  .homepage-title {
+    margin-top: 150px;
+  }
 
   .headlines {
     text-align: center;
@@ -58,9 +61,9 @@ html {
 
 .quote {
   text-align: center;
-  margin: 50px;
+  margin-top: 40px;
   font-style: italic;
-  font-size: 30px;
+  font-size: 28px;
   opacity: 50%;
 }
 
@@ -83,10 +86,9 @@ html {
 .nav-link {
   font-size: 28px;
   margin-left: 20px;
+  font-family: var(--main-font-family);
 }
-.social-media {
-  text-align: center;
-}
+
 .social-media-links {
   color: var(--default-background-color);
   font-size: 40px;
@@ -171,18 +173,25 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 85rem;
+  background-size: cover;
 }
 
 .contact-container {
   font-family: var(--main-font-family);
-  padding: 20px;
+  padding: 40px;
+  margin-top: 75px;
 }
 
 .contact-link {
   text-decoration: none;
   color: blueviolet;
   margin-left: 10px;
+  font-size: 20px;
+}
+
+.contact-info {
+  margin-top: 40px;
 }
 .donate {
-  margin-top: 20px;
+  margin-top: 40px;
 }
