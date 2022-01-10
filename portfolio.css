@@ -92,6 +92,11 @@ html {
   font-size: 40px;
   padding: 20px;
 }
+.social-media-links-work {
+  font-size: 40px;
+  padding: 20px;
+  color: var(--default-font-color);
+}
 
 .about-page-body {
   background-image: url("images/mtb-dark-guitar.png");
@@ -176,6 +181,7 @@ html {
 .contact-link {
   text-decoration: none;
   color: blueviolet;
+  margin-left: 10px;
 }
 .donate {
   margin-top: 20px;
