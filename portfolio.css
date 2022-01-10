@@ -107,11 +107,13 @@ html {
   background-repeat: no-repeat;
 }
 
+.about-title {
+  margin-top: 100px;
+}
 .about,
 .about-title {
   font-family: var(--main-font-family);
   color: var(--default-font-color);
-  margin-top: 20px;
 }
 
 .about {
