@@ -206,11 +206,19 @@ html {
   margin-top: 40px;
 }
 
-blockquote {
+.instagram-media {
   color: black;
   position: relative;
   display: inline-block;
   padding: 0 5px;
   margin: 0px auto;
   left: 27%;
+}
+
+.twitter-tweet {
+  color: black;
+  position: relative;
+  display: inline-block;
+  padding: 0 5px;
+  margin: 0px auto;
 }
